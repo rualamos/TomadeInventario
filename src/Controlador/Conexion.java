@@ -19,7 +19,7 @@ public class Conexion {
       if (cnx == null) {
          try {
             Class.forName("com.mysql.jdbc.Driver");
-            cnx = DriverManager.getConnection("jdbc:mysql://10.1.26.145/tomadeinventario", "servidor", "#Riad271189,");
+            cnx = DriverManager.getConnection("jdbc:mysql://10.1.26.xxx/tomadeinventario", "xxxxx", "#xxxxxxxx,");
          } catch (SQLException ex) {
             //throw new SQLException(ex);
             ex.printStackTrace();
